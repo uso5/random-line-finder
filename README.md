@@ -24,7 +24,15 @@ example: `node generate_files.js 100 output.txt`
 ## Development
 
 For development, you can use the following command:
-`npm run start:dev`
+
+`npm run start:dev -- <input_file> <line_index>`
+
+- <input_file>: input file for getting ling
+- <line_index>: index of line we need to get
+
+example: `npm run start:dev -- output.txt 3`
+
+Text files are stored inside assets folder
 
 ## Running Tests
 
